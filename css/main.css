@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* Global Rules */
+:root {
+  --font: "Quicksand", sans-serif;
+  --main-color: #341f97;
+  --dm-font: "DM Serif Display";
+}
+
+body {
+  font-family: var(--font) !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--main-color) !important;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-family: var(--font);
+  font-weight: bold;
+}
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+/* Showcase */
+.showcase {
+  background-color: var(--main-color);
+  height: 80vh !important;
+}
+.showcase h1 {
+  padding-top: 70px;
+  font-family: var(--font);
+  font-weight: bolder;
+}
+.showcase .btn {
+  padding: 10px 50px !important;
+  font-size: 25px;
+}
+
+/* Contact */
+.contact {
+  background-color: var(--main-color);
+}
+.contact h1 {
+  font-weight: bolder;
+}
+.form-control {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px white;
+  border-radius: 0;
+  color: white !important;
+}
+.form-control:focus {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px white;
+  border-radius: 0;
+  box-shadow: none;
+}
+::placeholder {
+  color: #ddd !important;
+}
